@@ -2,6 +2,12 @@
    font-family: Courier;
   }
 
+  .work-experience .experience-pics{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+   }
+
   .work-experience {
     width: 100%;
     height: auto;
@@ -11,6 +17,8 @@
     flex-direction: column;
     background-color: #F0FFFF;
   }
+
+
 .list-edit {
     color: darkblue;
     font-size: 110%;
@@ -21,6 +29,6 @@
     font-size: 25px;
     font-family: sans-serif;
    }
- 
 
+ 
 

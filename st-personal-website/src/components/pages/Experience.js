@@ -19,7 +19,7 @@ function Experience() {
             iconStyle={{ background: '#FF8919', color: '#fff' }}
             icon={<Computer />}>
             <h3 className='vertical-timeline-element-title-w'> UBC & AWS: Cloud Innovation Center</h3>
-            <img src={awsCIC} width="370" height="270" />
+            <img src={awsCIC} className='experience-pics' />
             <p>  <span style={{ fontWeight: "normal" }}>
               Worked with AWS engineers to co-design, deploy and document an open source, IoT based, web platform
               for three health foundations that support individuals with Autism Spectrum Disorder.
@@ -38,7 +38,7 @@ function Experience() {
 
             <h3 className='vertical-timeline-element-title'> Vancouver Airport Authority</h3>
             <br></br>
-            <img src={yvr} width="355" height="170" />
+            <img src={yvr} className='experience-pics' />
             <p>  <span style={{ fontWeight: "normal" }}>
               Worked with the Innovative Travel Solutions team, in an agile environment to develop
               features for YVR’s Digital Twin MVP delivered by Unity.
@@ -56,7 +56,7 @@ function Experience() {
             iconStyle={{ background: 'rgb(253, 110, 14)', color: '#fff' }}
             icon={<Computer />}>
             <h3 className='vertical-timeline-element-title'> Mashreq Bank</h3>
-            <img src={mashreq} width="300" height="170" />
+            <img src={mashreq} className='experience-pics' />
 
             <p>  <span style={{ fontWeight: "normal" }}>
               Part of the agile team tasked with facilitating Mashreq's digitial transformation.

@@ -21,7 +21,7 @@ function Projects() {
   icon={<Computer/>}>
   <h3 className='vertical-timeline-element-title'> Gym and Fitness Program Management System</h3>
     <br/>
-  <img src={fitnessGif} width="450" height="260"/>
+  <img src={fitnessGif} className='project-exp-pics'/>
        <p>  <span style={{fontWeight: "normal"}}>  
        
        Worked in a group of three to create a database management system for a
@@ -39,7 +39,7 @@ function Projects() {
   icon={<Computer/>}>
   <h3 className='vertical-timeline-element-title'> K-Nearest Neighbors Classification on Banknote Data</h3>
     <br/>
-  <img src={DSCIgif} width="450" height="280"/>
+  <img src={DSCIgif} className='project-exp-pics'/>
        <p>  <span style={{fontWeight: "normal"}}>  
        
        Worked in a group of three to create a database management system for a
@@ -62,7 +62,7 @@ function Projects() {
   icon={<Computer/>}>
   <h3 className='vertical-timeline-element-title'> Sound Reactive LED Light Strip</h3>
     <br/>
-  <img src={ledgif} width="440" height="240"/>
+  <img src={ledgif} className='project-exp-pics'/>
        <p>  <span style={{fontWeight: "normal"}}>  
        
        Used an Arduino microprocessor, an electret microphone module and the FastLED library 
@@ -92,7 +92,7 @@ function Projects() {
   icon={<Computer/>}>
   <h3 className='vertical-timeline-element-title'> Personal Grocery Shopping Manager</h3>
     <br/>
-  <img src={groceryGif} width="450" height="270"/>
+  <img src={groceryGif} className='project-exp-pics'/>
        <p>  <span style={{fontWeight: "normal"}}>  
        
        Created an application that allows users to keep inventory of their grocery purchases, 
@@ -115,7 +115,7 @@ function Projects() {
   icon={<Computer/>}>
   <h3 className='vertical-timeline-element-title'> SFU Hackathon: 90s Themed Tamagotchi SnapLens</h3>
     <br/>
-  <img src={sfu_devpost} width="450" height="220"/>
+  <img src={sfu_devpost} className='project-exp-pics'/>
        <p>  <span style={{fontWeight: "normal"}}>  
        
        Successfully used JavaScript, Lens-Studio and the Snap-Kit API to create an animated Tamagotchi snap-lens that reacts to
