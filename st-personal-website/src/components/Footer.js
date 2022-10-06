@@ -1,14 +1,27 @@
 import React from 'react'
-import { LinkedIn, GitHub} from '@material-ui/icons'
+import { LinkedIn, GitHub, Email, PictureAsPdf} from '@material-ui/icons'
 import "../styles/Footer.css"
+import { Button, Icon, IconButton } from '@material-ui/core'
 function Footer() {
   return (
     <div className='footer'>
         <div className='socialMedia'>
-        <LinkedIn/>
-        <GitHub/>
+          <IconButton href='https://www.linkedin.com/in/shrey-thapar/'>
+            <LinkedIn/>
+          </IconButton>
+          <IconButton href='https://github.com/ShreyT-hash'>
+            <GitHub/>
+          </IconButton>
+          <IconButton href='mailto:shrey.thapar.uni@gmail.com'>
+            <Email/>
+          </IconButton>
+{/* add resume link here */}
+          <IconButton href=''>
+            <PictureAsPdf/>
+          </IconButton>
+
         </div>
-        <p> &copy; 2022 shreyt.com</p>
+        {/* <p> &copy; 2022 shreyt.com</p> */}
         </div>
       
   ) 

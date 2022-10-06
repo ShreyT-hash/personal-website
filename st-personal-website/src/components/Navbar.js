@@ -26,8 +26,9 @@ function Navbar() {
     {/* <div style={{border: '2px solid red'}}> */}
     <Link to='/'>About Me</Link>
     {/* </div> */}
-    <Link to='/projects'>Technical Experience and Projects</Link>
+    <Link to='/projects'>Technical Projects</Link>
     <Link to='/experience'>Work Experience</Link>
+
 
     </div>
     </div>

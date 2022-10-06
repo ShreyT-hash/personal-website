@@ -1,0 +1,26 @@
+.vertical-timeline-element .date-style{
+   font-family: Courier;
+  }
+
+  .work-experience {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F0FFFF;
+  }
+.list-edit {
+    color: darkblue;
+    font-size: 110%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+   }
+
+   .vertical-timeline-element-title-w {
+    font-size: 25px;
+    font-family: sans-serif;
+   }
+ 
+
+
