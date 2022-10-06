@@ -1,5 +1,5 @@
 import main_headshot from '../../assets/shrey_headshot.png'
-import  '../../styles/Home4.css'
+import  '../../styles/Home.css'
 
 function Home() {
   return (
