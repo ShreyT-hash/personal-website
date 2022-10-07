@@ -41,16 +41,10 @@ function Projects() {
     <br/>
   <img src={DSCIgif} className='project-exp-pics'/>
        <p>  <span style={{fontWeight: "normal"}}>  
-       
-       Worked in a group of three to create a database management system for a
-       Gym that offers fitness programs for its clients. Utilized SQL, HTML/CSS and PHP
-       to create a frontend that can provide comprehensive queries from a fully normalized and pre-populated Oracle database. 
+       Analyzed a banknote dataset from the UC Irvine ML repository that enabled the computer to detect which banknotes were
+forged and which ones were authentic with a 99.7% accuracy. Used data science libraries such as Tidyverse, GGally and Caret to wrangle, clean, visualize and perform a KNN classification.
         </span> </p>
-       <p>  <span style={{fontWeight: "normal"}}> Utilized JSwing to create a 
-       functional GUI and JUnit for testing. Wrote robust methods adhering to the SOLID principles and achieved an 
-       evaluation of 97% on the project. 
-       </span> </p>
-       <br/>
+        <br/>
        <Button variant="outlined" color='secondary' fullWidth='true' href='https://shreyt-hash.github.io/DSCI-100-KNN-Classification/'>View Source</Button>
 
 
