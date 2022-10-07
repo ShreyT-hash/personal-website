@@ -2,7 +2,7 @@ import React from 'react'
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Projects from './components/pages/Projects'
 import Home from './components/pages/Home'
-import Experience from './components/pages/Experience'
+import WorkExperience from './components/pages/WorkExperience'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 
@@ -15,7 +15,7 @@ function App() {
         <Routes>
         <Route path = '/' element={<Home />}></Route>
         <Route path = '/projects' element={<Projects />}></Route>
-        <Route path = '/experience' element={<Experience />}></Route>
+        <Route path = '/experience' element={<WorkExperience />}></Route>
         </Routes>
         <Footer/>
     </Router>
@@ -26,3 +26,4 @@ function App() {
 }
 
 export default App
+

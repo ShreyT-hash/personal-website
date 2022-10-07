@@ -2,13 +2,13 @@ import React from 'react'
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component"
 import "react-vertical-timeline-component/style.min.css"
 import Computer from '@material-ui/icons/Computer'
-import '../../styles/Experience.css'
+import '../../styles/WorkExperience.css'
 import mashreq from '../../assets/mashreq.jpeg'
 import yvr from '../../assets/YVR_Logo.jpeg'
 import awsCIC from '../../assets/awsCIC.png'
 import { Button } from '@material-ui/core'
 
-function Experience() {
+function WorkExperience() {
   return (
     <div>
       <div className='work-experience'>
@@ -74,5 +74,5 @@ function Experience() {
   )
 }
 
-export default Experience
+export default WorkExperience
 
