@@ -16,7 +16,7 @@ function Footer() {
             <Email/>
           </IconButton>
 {/* add resume link here */}
-          <IconButton href=''>
+          <IconButton href='https://resume-host-st.s3.ca-central-1.amazonaws.com/Shrey+Thapar+Resume.pdf'>
             <PictureAsPdf/>
           </IconButton>
 
