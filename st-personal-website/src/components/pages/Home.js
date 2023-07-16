@@ -22,7 +22,7 @@ function Home() {
         </p>
         <h1 className="a-title">About Me</h1>
         <p className="a-desc">
-        I am a senior at the University of British Columbia who hopes to use the knowledge gained from 
+        A recent graduate from the University of British Columbia who hopes to use the knowledge gained from 
      work experiences, courses and technical projects to design, develop, create, and educate 
         </p>
 
