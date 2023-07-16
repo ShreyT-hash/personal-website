@@ -18,7 +18,7 @@ function Home() {
       <div className="a-right">
         <h1 className="a-title">Hi, I'm Shrey Thapar</h1>
         <p className="a-sub">
-        Just adding a bit of life and color to the grayscale characters on my resume ;)
+        If you are reading this, you're probably a recruiter ;) Welcome!! Feel free to stay for a while and look around! 
         </p>
         <h1 className="a-title">About Me</h1>
         <p className="a-desc">
