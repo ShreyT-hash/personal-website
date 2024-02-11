@@ -15,8 +15,6 @@ function Projects() {
 
 <VerticalTimeline lineColor='#3e497a'>
 <VerticalTimelineElement className='vertical-timeline-element-p'
-  date=' February 2021 - April 2021'
-  dateClassName='date-style'
   iconStyle={{background:'#24AD1D', color: '#fff'}}
   icon={<Computer/>}>
   <h3 className='vertical-timeline-element-title'> Gym and Fitness Program Management System</h3>
@@ -33,8 +31,6 @@ function Projects() {
 </VerticalTimelineElement>
 
 <VerticalTimelineElement className='vertical-timeline-element-p'
-  date='2020 March - 2020 April'
-  dateClassName='date-style'
   iconStyle={{background:'#89CFF0', color: '#fff'}}
   icon={<Computer/>}>
   <h3 className='vertical-timeline-element-title'> K-Nearest Neighbors Classification on Banknote Data</h3>
@@ -50,8 +46,6 @@ forged and which ones were authentic with a 99.7% accuracy. Used data science li
 
 </VerticalTimelineElement>
 <VerticalTimelineElement className='vertical-timeline-element-p'
-  date='2021 Feb - 2021 April'
-  dateClassName='date-style'
   iconStyle={{background:'#FF4545', color: '#fff'}}
   icon={<Computer/>}>
   <h3 className='vertical-timeline-element-title'> Sound Reactive LED Light Strip</h3>
@@ -80,8 +74,6 @@ forged and which ones were authentic with a 99.7% accuracy. Used data science li
 
 
 <VerticalTimelineElement className='vertical-timeline-element-p'
-  date='2020 March - 2020 April'
-  dateClassName='date-style'
   iconStyle={{background:'#8D7DEE', color: '#fff'}}
   icon={<Computer/>}>
   <h3 className='vertical-timeline-element-title'> Personal Grocery Shopping Manager</h3>
@@ -103,8 +95,6 @@ forged and which ones were authentic with a 99.7% accuracy. Used data science li
 
 </VerticalTimelineElement>
     <VerticalTimelineElement className='vertical-timeline-element-p'
-  date='February 2019'
-  dateClassName='date-style'
   iconStyle={{background:'#FF8CFF', color: '#fff'}}
   icon={<Computer/>}>
   <h3 className='vertical-timeline-element-title'> SFU Hackathon: 90s Themed Tamagotchi SnapLens</h3>
