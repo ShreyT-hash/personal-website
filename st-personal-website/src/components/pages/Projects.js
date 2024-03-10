@@ -5,15 +5,33 @@ import groceryGif from '../../assets/gr.gif'
 import fitnessGif from '../../assets/sqlfitness.gif'
 import ledgif from '../../assets/led_lights.gif'
 import DSCIgif from '../../assets/DSCI_recording.gif'
+import stemviz_pic from '../../assets/stemviz_pic.png'
+
 import sfu_devpost from '../../assets/sfu_hackathon.png'
 import { Button } from '@material-ui/core'
 import Computer from '@material-ui/icons/Computer'
+
 
 function Projects() {
   return (
     <div className='project-experience'>
 
 <VerticalTimeline lineColor='#3e497a'>
+<VerticalTimelineElement className='vertical-timeline-element-p'
+  iconStyle={{background:'#fc4903', color: '#fff'}}
+  icon={<Computer/>}>
+  <h3 className='vertical-timeline-element-title'> Creator of STEMViz</h3>
+    <br/>
+  <img src={stemviz_pic} className='project-exp-pics'/>
+       <p>  <span style={{fontWeight: "normal"}}>  
+       Creator of STEMViz. An online educational platform that utilizes Three Blue One Brown's Python based Mathematical Animation Engine to create 
+       beautiful visualizations that teach, communicate and refresh your knowledge on complex coding concepts in under two minutes. 
+        </span> </p>
+        <br/>
+        <Button variant="outlined" color='secondary' fullWidth='true' href='https://www.youtube.com/channel/UCLu0aFhp1qagPe6f2YwVexQ'>View YouTube Channel</Button>
+
+       <Button style={{marginTop: "10px"}}variant="outlined" color='secondary' fullWidth='true' href='https://www.stemviz.net/'>View Website</Button>
+</VerticalTimelineElement>
 <VerticalTimelineElement className='vertical-timeline-element-p'
   iconStyle={{background:'#24AD1D', color: '#fff'}}
   icon={<Computer/>}>
