@@ -22,8 +22,8 @@ function Home() {
         </p>
         <h1 className="a-title">About Me</h1>
         <p className="a-desc">
-        A recent graduate from the University of British Columbia who hopes to use the knowledge gained from 
-     work experiences, courses and technical projects to design, develop, create, and educate 
+        A graduate from University of British Columbia, currently working as a backend engineer at a fully Digital Bank. Hopes to use the knowledge gained from 
+     work experiences, courses and technical projects to design, develop, create, and educate!
         </p>
 
         </div>
